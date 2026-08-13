@@ -11,5 +11,5 @@ jobs:
         uses: joshcai/leetcode-sync@v1.7
         with:
           github-token: ${{ github.token }}
-          leetcode-csrf-token: ${{ qF60EhsCt56Nvf4YLFEjZBTIFuMpwTh8 }}
-          leetcode-session: ${{ eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfYXV0aF91c2VyX2lkIjoiMjI1NDQyNjEiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaGFzaCI6ImI0M2ZlYzI4ZWYxYmQyMDg2YjU5NDljODBjM2ZjMmEzYWEzNTVhNzcxNzUzZjFmYjczMGJhNTUwOTNkMjAzYzMiLCJzZXNzaW9uX3V1aWQiOiJjY2RjNjViZiIsImlkIjoyMjU0NDI2MSwiZW1haWwiOiJwcml5YW5rYXB1bmphYmkwNUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6InByaXlhbmthX3B1bmphYmlpIiwidXNlcl9zbHVnIjoicHJpeWFua2FfcHVuamFiaWkiLCJhdmF0YXIiOiJodHRwczovL2Fzc2V0cy5sZWV0Y29kZS5jb20vdXNlcnMvcHJpeWFua2FfcHVuamFiaWkvYXZhdGFyXzE3ODYzNjIwODAucG5nIiwicmVmcmVzaGVkX2F0IjoxNzg2NjAwNzUzLCJpcCI6IjE0LjEzOS4xMjIuMTM5IiwiaWRlbnRpdHkiOiI2OTY3ZWM3MjYxYjNjYmU2YTkxZDc5OGM2Yjk1MWM2MCIsImRldmljZV93aXRoX2lwIjpbIjA1NWQyNWM1MGJmMThjMjhiOGU1NjJhYzBhYTc5NDExIiwiMTQuMTM5LjEyMi4xMzkiXSwiX3Nlc3Npb25fZXhwaXJ5IjoxMjA5NjAwfQ.KNer1odQNz85R_jdnndIlyUM20hM2NZJw12yw_rHw1A }}
+          leetcode-csrf-token: ${{ secrets.LEETCODE_CSRF_TOKEN }}
+          leetcode-session: ${{ secrets.LEETCODE_SESSION }}
