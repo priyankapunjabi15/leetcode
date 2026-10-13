@@ -1,7 +1,6 @@
 class Solution:
     def isValid(self, s: str) -> bool:
-        para = {")":"(", "]":"[", "}":"{"}
-        #para = [('(',')'), ('{','}'), ('[',']')]        
+        para = {")":"(", "]":"[", "}":"{"}       
         stack = []
 
         for char in s:
